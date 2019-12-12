@@ -1,0 +1,115 @@
+body {
+  font: 'Titillium Web', sans-serif;
+}
+.card-img-top {
+  height: 100px;
+  width: max-content;
+}
+div.hd-bg {
+  background-color: #87509c;
+}
+div.header-text {
+  margin-bottom: 0; 
+  text-align: center;
+  color: white;
+  background-color: #87509c;
+  margin: auto;
+}
+a.btn-us {
+  background-color: #eb7d4b;
+  width: 17%;
+  border: 1px solid #eb7d4b;
+  border-radius: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 4px 0px 0px #c86a40;
+}
+.btn-us:hover,
+.btn-us:focus,
+.btn-us:active {
+  background-color: #eb7d4b!important;
+  box-shadow: 0px 4px 0px 0px #c86a40!important;
+  border: 1px solid #eb7d4b!important;
+}
+div.serv {
+  background-color: #17c2a4;
+  color: white;
+}
+div.ppl-say {
+  background-color: #d74680;
+  color: white;
+  font-size: 14px;
+}
+div.git {
+  background-color: #3c5499;
+}
+.bck {
+  background-color: #273a71;
+}
+h2.hd-txt {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+} 
+input.inp-style {
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+textarea.f-txt-style {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 400px;
+}
+textarea.form-control {
+  height: 200px;
+}
+button.btn-style {
+  color: white;
+  background-color: #30bae7;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  width: 200px;
+  height: 55px;
+}
+.footer {
+  background-color: #344b8e;
+  border-top: 0.2px solid #6877a1;
+}
+hr {      
+  height: 4px;
+  width: 70px;
+  border: none;
+} 
+hr.hr-one {
+  background-color: #14a58c;
+}
+hr.hr-two {
+  background-color: #b73c6d;
+}
+.bg-transparent {
+  background-color: transparent;
+}
+hr.hr-three {
+  background-color: #273a71;
+}
+.expl-text {
+  text-align: center;
+  margin-bottom: 90px;
+  color: white;   
+}
+@media only screen and (max-width: 900px) {
+  a.btn-us {
+    width: 28%; 
+    font-size: 12px;
+  }
+  .expl-text {
+    margin-bottom: 35px;    
+  }
+  .mb-r {
+    margin-top: 0;
+  }
+}
